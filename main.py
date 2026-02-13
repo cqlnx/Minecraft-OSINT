@@ -118,7 +118,7 @@ def main():
 		print(CYAN + BANNER + RESET)
 		menu = (
 			f"{GREEN}1){RESET} Get server info\n"
-			f"{GREEN}2){RESET} View players on a server\n"
+			f"{GREEN}2){RESET} View indexed players for a server\n"
 			f"{GREEN}3){RESET} Search for a player\n"
 			f"{GREEN}4){RESET} Search database (advanced)\n"
 			f"{GREEN}5){RESET} Get random server\n"
@@ -171,10 +171,10 @@ def main():
 
 		elif option == '2':
 			clear_console()
-			print(f"{CYAN}=== View Players on a Server ==={RESET}")
+			print(f"{CYAN}=== View Indexed Players for a Server ==={RESET}")
 			server_ip = input("Enter IP of the server: ").strip()
 			data = get_server_players(server_ip)
-			print(f"\nPlayers on {server_ip}:\n")
+			print(f"\nIndexed players for {server_ip}:\n")
 			for player in data.get('players', []):
 				print(f"  - {player.get('name')} (UUID: {player.get('uuid')})")
 			input("\nPress Enter to return to the main menu...")
