@@ -24,7 +24,7 @@ It allows you to:
 
 ``` bash
 git clone https://github.com/cqlnx/Minecraft-OSINT.git
-cd mine-scan
+cd Minecraft-OSINT
 pip install -r requirements.txt
 python mine-scan.py
 ```
