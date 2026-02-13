@@ -217,6 +217,7 @@ def main():
 			page_size = int(page_size) if page_size else 20
 			data = search_servers(version=version, software=software, authmode=authmode, min_players=min_players, country=country, sort=sort, page=page, page_size=page_size)
 			servers = data.get('servers', [])[:page_size]
+			print(f"\nPage {page} | {len(servers)} results:")
 			if not servers:
 				print("No servers found with those filters.")
 			else:
