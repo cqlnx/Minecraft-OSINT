@@ -132,7 +132,7 @@ def main():
 			print(f"{CYAN}=== Search for Player ==={RESET}")
 			print("Find servers where a player has been seen.")
 			print("Includes UUID, total servers found, first seen and last seen.\n")
-			player_name = input("Enter player name: ").strip()
+			player_name = input("Enter player name or UUID: ").strip()
 			data = search_player(player_name)
 			uuid = data.get("uuid")
 			name = data.get("name")
