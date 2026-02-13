@@ -5,12 +5,20 @@ public Minecraft servers.
 
 It allows you to:
 
--   Retrieve server information (version, software, auth mode,
-    geolocation)
+-   Retrieve server information (version, software, auth mode, geolocation)
 -   View players that have been observed on a specific server
 -   Track where a player has been seen (UUID, first/last seen, server history)
 -   Perform advanced searches across indexed servers
 -   Discover random servers with custom filters
+
+## Demo
+
+### Main Menu
+<img width="695" height="299" alt="menu" src="https://github.com/user-attachments/assets/4122dc72-42dd-427b-bd3c-5b3bc11da2cc" />
+
+### Player Search Example
+![player-search](https://github.com/user-attachments/assets/81b0a7e8-9581-4836-98e2-d5fc05863d5c)
+
 
 ## Installation
 
