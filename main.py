@@ -236,8 +236,8 @@ def main():
 			print(f"{CYAN}=== Credits / About ==={RESET}")
 			print(f"{YELLOW}Minecraft Server OSINT Tool{RESET}")
 			print(f"{YELLOW}Created by: Reimo{RESET}")
-			print(f"{YELLOW}Github: github.com/cqlnx{RESET}")
-			print(f"{YELLOW}API: mcapi.shit.vc{RESET}")
+			print(f"{YELLOW}Github: https://github.com/cqlnx/Minecraft-OSINT{RESET}")
+			print(f"{YELLOW}API: https://mcapi.shit.vc{RESET}")
 			input("\nPress Enter to return to the main menu...")
 			
 		elif option.lower() in ('q', 'quit', 'exit'):
