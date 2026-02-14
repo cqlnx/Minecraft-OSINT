@@ -26,7 +26,7 @@ It allows you to:
 git clone https://github.com/cqlnx/Minecraft-OSINT.git
 cd Minecraft-OSINT
 pip install -r requirements.txt
-python mine-scan.py
+python main.py
 ```
 
 ## About
